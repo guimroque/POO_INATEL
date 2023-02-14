@@ -23,5 +23,7 @@ public class main {
                 "O resultado das suas notas é " + result + " voce foi " + (result >= 50 ? "aprovado" : "reprovado")
             );
         }
+
+        input.close();
     }
 }
